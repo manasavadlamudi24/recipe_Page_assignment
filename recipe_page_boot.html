@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spaghetti Carbonara Recipe</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 80px; /* Adjusted padding for navbar */
+      padding-bottom: 50px;
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    .recipe-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3 {
+      color: #343a40;
+    }
+    .lead {
+      color:chocolate;
+      font-style: italic;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      font-weight: bold;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+    .ingredients-list, .instructions-list {
+      padding-left: 20px;
+    }
+    .ingredients-list li, .instructions-list li {
+      margin-bottom: 10px;
+    }
+    .card-title{
+        color: green;
+    }
+    .rating{
+        color:red;
+    }
+    .card-body{
+        width:800px;
+        margin:auto;
+        background-color:lemonchiffon;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Recipe Page</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container recipe-container">
+    <h1 class="text-center mb-4">Spaghetti Carbonara</h1>
+    <img src="spagathi.jpg" class="img-fluid mx-auto d-block mb-4">
+    <p class="lead text-center">A classic Italian pasta dish with creamy sauce, crispy bacon, and Parmesan cheese.</p>
+    
+    <h2>Ingredients:</h2>
+    <ul class="ingredients-list">
+      <li>400g spaghetti</li>
+      <li>200g pancetta or bacon, diced</li>
+      <li>3 large eggs</li>
+      <li>100g grated Parmesan cheese</li>
+      <li>2 cloves garlic, minced</li>
+      <li>Salt and black pepper to taste</li>
+      <li>Chopped parsley for garnish (optional)</li>
+    </ul>
+
+    <h2>Instructions:</h2>
+    <ol class="instructions-list">
+      <li>Bring a large pot of salted water to a boil. Cook spaghetti according to package instructions until al dente. Drain, reserving 1 cup of pasta water.</li>
+      <li>In a skillet, cook diced pancetta or bacon over medium heat until crispy. Remove from heat and set aside.</li>
+      <li>In a mixing bowl, whisk together eggs, grated Parmesan cheese, minced garlic, salt, and black pepper.</li>
+      <li>While the spaghetti is still hot, quickly toss it with the egg and cheese mixture until well-coated. The residual heat will cook the eggs and create a creamy sauce. If the sauce seems too thick, add a little pasta water gradually until desired consistency is reached.</li>
+      <li>Stir in the cooked pancetta or bacon. Taste and adjust seasoning if needed.</li>
+      <li>Serve immediately, garnished with chopped parsley if desired. Enjoy your delicious Spaghetti Carbonara!</li>
+    </ol>
+    <div class="text-center">
+      <a href="#" class="btn btn-primary">Print Recipe</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Great Recipe!</h5>
+      <p class="card-text">This was amazing! I loved how creamy the sauce turned out.</p>
+      <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Delicious!</h5>
+      <p class="card-text">Best spaghetti carbonara I've ever tasted.</p>
+      <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Fantastic Dish!</h5>
+      <p class="card-text">I made this for dinner last night, and my family absolutely loved it!</p>
+      <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Amazing Taste!</h5>
+      <p class="card-text">This recipe is now a regular in our household. So delicious!</p>
+      <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
